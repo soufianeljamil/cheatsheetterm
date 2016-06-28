@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+
+<html>
+
+
+<head>
+
+<meta charset="utf-8">
+<title>QUELQUES COMMANDES DU TERMINAL <title>
+
+/<head>
+
+
+<body>
+<h1<
+
+<p>
+Pour utiliser le terminal, nous avons besoin de connaître quelques commandes importantes. Ce document n'est pas exostif et susceptible d'évoluer au fure et à mesure que d'autres commandes me sembleront indispensable pour gérer mon système d'exploitation Linux. N'est-ce pas le principe d'un cheat sheet.</p>
+</h1> 
+br br br
+
+
+<hé>
+<ul>
+<li> <strong>ls</strong>: Affiche le contenu du répertoire courant. C'est à dire le répertoire sur lequel on se trouve./<li> 
+<strong>ls -la</strong>: Affiche le contenu du répertoire courant en incluant les fichiers cachés. La liste obtenue contient des détails sur les fichiers (droits, date de modification...) 
+<li> <strong>cd nom_du_repertoire</strong>: Change le répertoire courant.</li> 
+<li> 
+<strong>cd</strong..>: Remonte vers le répertoire parent.</li> 
+<li> <strong>cd .</strong>: Reste dans le répertoire dans lequel on se trouve. Utile si l'on souhaite partir du répertoire courant pour effectuer un changement de répertoire. Ce paramètre est en fait tout le temps omis. Si l'on est dans le répertoire /home/cedric et que l'on veut se placer dans le répertoire fils document il suffit de faire cd document. C'est équivalent à cd ./document</li>  
+<li> <strong>cd</strong>: Se place sur la racine de l'arborescence de votre Debian GNU/Linux.</li> 
+<li> <strong>cd ~</strong>: Se place sur la racine de votre répertoire personnel. En général on se retrouve dans le répertoire /home/nom_utilisateur</li>
+<li> <strong>touch nom_du_fichier</strong>: Crée le fichier nom_du_fichier. Ce fichier sera vide.</li> 
+<li> <strong>cp fichier1 fichier2</strong>: Copie le fichier fichier1 en un nouveau fichier fichier2.</li> 
+<li> <strong>cp -r repertoire1 repertoire2</strong>: Copie le contenu du répertoire repertoire1 en un nouveau répertoire repertoire2.</li> 
+<li> <strong>mv fichier1 fichier2</strong>: Renomme le fichier fichier1 en fichier2.</li> 
+<li> <strong>rm nom_du_fichier</strong>: Efface le fichier nom_du_fichier. Cette opération est irréversible. Un fichier effacé est perdu à tout jamais :(.</li>  
+<li> <strong>rm -r nom_du_répertoire</strong>: Efface le répertoire nom_du_répertoire et tout son contenu. Cette opération est irréversible.</li> 
+<li> <strong>mkdir nom_du_repertoire</strong>: Crée le répertoire nom_du_repertoire.</li> 
+<li> <strong>rmdir nom_du_repertoire</strong>: Efface le répertoire nom_du_repertoire. Ce répertoire doit être vide pour pouvoir être supprimé.</li> Utilisez la commande <strong>rm -r</strong> pour supprimer un répertoire non-vide. 
+<li> <strong>ln -s</strong> fichier_ou_repertoire cible
+Crée un lien symbolique cible qui pointera vers le fichier ou le répertoire fichier_ou_repertoire. On peut faire l'analogie entre le lien symbolique et le raccourci sous Windows.</li> 
+<strong>df -h</strong>: Affiche l'espace libre sur vos disques durs.</li> 
+<li> <strong>du -h nom_du_répertoire</strong>: Affiche la taille du répertoire nom_du_répertoire. </li>
+<li> <strong>more nom_du_fichier</strong>: Affiche le contenu du fichier nom_du_fichier et marque une pause entre chaque page d'écran.</li> 
+<li> <strong>cat nom_du_fichier</strong>: Affiche le contenu du fichier nom_du_fichier sans marquer une pause entre chaque page d'écran.</li> 
+
+<li> <strong>halt</strong>: Termine tous les processus qui sont en cours d'execution, écrit toutes les données en mémoire sur le disque dur, arrête tous les services et éteint votre machine. Cette opération est nécessaire pour ne pas perdre des données.</li> 
+<li> <strong>reboot</strong>: Identique à halt sauf que le système redémarre au lien de s'éteindre.</li>
+<li> <strong>adduser nom_utilisateur</strong>: Ajoute un utilisateur qui aura pour login nom_utilisateur. Vous devrez ensuite définir son mot de passe et des informations facultatives à son sujet.</li> 
+<li><strong>deluser nom_utilisateur</strong>: Supprime l'utilisateur nom_utilisateur.</li>
+
+<li> <strong>dmesg</strong>: Affiche les messages du noyau affichés lors du boot.</li> 
+<li> <strong>uname -a</strong>: Indique la version de son noyau.</li> 
+<li> <strong>uptime</strong>: Affiche le temps d'utilisation de votre machine depuis sa mise sous tension.</li>
+
+</ul>
+</h2>
+</body>
+</html>
+
